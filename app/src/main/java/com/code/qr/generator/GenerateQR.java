@@ -21,7 +21,7 @@ import java.net.URLEncoder;
 public class GenerateQR extends ActionBarActivity {
     ImageLoader imgLoader;
     ImageView qrImg;
-    String copiedStr;
+    protected String copiedStr;
     TextView qrTxt;
     ClipboardManager clipboard;
 
